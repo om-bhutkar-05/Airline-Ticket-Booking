@@ -1,4 +1,3 @@
-```markdown
 # C++ Airline Booking System with Binomial Heap Waitlists
 
 ## Overview
@@ -33,29 +32,28 @@ The application provides a Text-based User Interface (TUI) for interaction via t
 ## Project Structure
 
 The project is organized into separate header and source files for better modularity:
-```
 
 ```
 airline_booking/
-├── include/                # Header files (.h)
-│   ├── common/
-│   │   └── Types.h         # Common type definitions (PriorityType, etc.)
-│   ├── core/
-│   │   └── Passenger.h     # Passenger struct definition
-│   ├── heap/
-│   │   ├── BinomialHeap.h  # BinomialHeap class declaration
-│   │   └── BinomialHeapNode.h # BinomialHeapNode struct definition
-│   └── booking/
-│       ├── BookingSystem.h # BookingSystem class declaration (TUI manager)
-│       └── Flight.h        # Flight class declaration
-├── src/                    # Source files (.cpp)
-│   ├── heap/
-│   │   └── BinomialHeap.cpp # BinomialHeap method implementations
-│   └── booking/
-│       ├── BookingSystem.cpp # BookingSystem method implementations
-│       └── Flight.cpp      # Flight method implementations
-├── main.cpp                # Main application entry point
-└── Makefile                # Build instructions (for Make utility)
+├── include/ # Header files (.h)
+│ ├── common/
+│ │ └── Types.h # Common type definitions (PriorityType, etc.)
+│ ├── core/
+│ │ └── Passenger.h # Passenger struct definition
+│ ├── heap/
+│ │ ├── BinomialHeap.h # BinomialHeap class declaration
+│ │ └── BinomialHeapNode.h # BinomialHeapNode struct definition
+│ └── booking/
+│ ├── BookingSystem.h # BookingSystem class declaration (TUI manager)
+│ └── Flight.h # Flight class declaration
+├── src/ # Source files (.cpp)
+│ ├── heap/
+│ │ └── BinomialHeap.cpp # BinomialHeap method implementations
+│ └── booking/
+│ ├── BookingSystem.cpp # BookingSystem method implementations
+│ └── Flight.cpp # Flight method implementations
+├── main.cpp # Main application entry point
+└── Makefile # Build instructions (for Make utility)
 ```
 
 ## Core Data Structures
